@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <stack>
-
+// WA
 int main()
 {
 	std::stack<int> s;
