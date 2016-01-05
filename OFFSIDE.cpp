@@ -5,11 +5,11 @@ using namespace std;
 
 int main()
 {
-	int A, D, distAttack[A], distDefend[D];
+	int A, D, distAttack[20], distDefend[20];
 	cin >> A;
 	cin >> D;
 
-	while(A != 0 && D != 0)
+	while(A >= 2 && D >= 2)
 	{
 		for(int i = 0; i < A; i++)
 		{
