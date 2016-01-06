@@ -10,7 +10,7 @@ int main()
 	double s = 0.00;
 
 	cin >> n;
-	for(int i = 0; i < n; i++)
+	for(long long int i = 0; i < n; i++)
 	{
 		cin >> r;
 		s = (4*r*r) + 0.25;
